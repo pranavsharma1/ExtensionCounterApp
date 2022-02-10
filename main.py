@@ -1,8 +1,7 @@
 from os import path
 import json
 
-import extension_counter
-import log_reader
+from app import log_reader, extension_counter
 
 if __name__ == '__main__':
 
