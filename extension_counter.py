@@ -31,6 +31,7 @@ class ExtensionCounter:
             except KeyError as e:
                 print(f'nm key not found in the Json element: {json_element}')
                 print(e)
+                raise
             try:
                 if filename not in filename_set:
                     filename_set.add(filename)
