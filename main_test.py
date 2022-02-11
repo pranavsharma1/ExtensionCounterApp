@@ -1,16 +1,13 @@
 import json
 import unittest
 from os import path
-from log_reader import LogFileReader
-from extension_counter import ExtensionCounter
-
-
+from app.log_reader import LogFileReader
+from app.extension_counter import ExtensionCounter
 
 class TestApp(unittest.TestCase):
     ''' A class representing all the the unit tests.'''
 
     base_path = path.abspath(path.curdir)
-    print(base_path)
 
     def test_read_file_success(self, basePath=base_path):
         ''' Test when file is read, records are json records are stored as a list'''
