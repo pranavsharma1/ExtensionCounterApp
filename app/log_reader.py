@@ -26,18 +26,6 @@ class LogFileReader:
                 data = file.readlines()
                 file.close()
                 return data
-
         except(IOError,FileNotFoundError,ValueError,EOFError) as e:
             print(e)
             print("Error in reading file")
-
-
-
-
-
-
-
-
-
-
-

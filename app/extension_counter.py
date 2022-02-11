@@ -1,6 +1,4 @@
 import json
-from os import path
-
 
 class ExtensionCounter:
     '''
@@ -34,16 +32,14 @@ class ExtensionCounter:
                 print(f'nm key not found in the Json element: {json_element}')
                 print(e)
                 raise
-            try:
-                if filename not in filename_set:
-                    filename_set.add(filename)
-                    extension = filename.split(".")[-1]
-                    if extension not in extension_map:
-                        extension_map[extension] = 1
-                    else:
-                        extension_map[extension] = extension_map[extension] + 1
-            except UnboundLocalError as u:
-                print(f'Error with the input file ')
-                print(u)
+
+            if filename not in filename_set:
+                filename_set.add(filename)
+                extension = filename.split(".")[-1]
+                if extension not in extension_map:
+                    extension_map[extension] = 1
+                else:
+                    extension_map[extension] = extension_map[extension] + 1
+
 
         return extension_map

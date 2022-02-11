@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fa8d3f9-5420-49e9-9dc7-e8fea690fb23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/../.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/extension_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../app/extension_counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/log_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/../app/log_reader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tests/main_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleMissingKeyData.json" beforeDir="false" afterPath="$PROJECT_DIR$/sampleMissingKeyData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../main_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
