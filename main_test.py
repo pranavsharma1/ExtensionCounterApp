@@ -1,11 +1,15 @@
 import json
 import unittest
 from os import path
-from app.log_reader import LogFileReader
+from app import log_reader
+from app import extension_counter
 from app.extension_counter import ExtensionCounter
+from app.log_reader import LogFileReader
+
 
 class TestApp(unittest.TestCase):
     ''' A class representing all the the unit tests.'''
+
 
     base_path = path.abspath(path.curdir)
 
