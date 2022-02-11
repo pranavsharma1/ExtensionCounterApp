@@ -6,4 +6,5 @@ Prerequisite: To run the project Python 3 is required
 2. Create virtual ennvironment using: python3 -m venv myenv
 3. Install the Coverage Module using: pip intsall coverage
 4. Run the tests file using: coverage run main_test.py
-
+5. Run: coverage html
+6. View Coverage in the project folder Navigating to: htmlcov/index.html
